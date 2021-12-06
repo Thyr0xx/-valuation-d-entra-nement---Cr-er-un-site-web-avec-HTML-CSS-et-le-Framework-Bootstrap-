@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">  
   <title>association de musique</title>
 </head>
-<body>
+<body class="textCursive">
   <!-- création d'une barre de navigation-->
   <nav class="navbar navbar-expand-lg navbar-light bg-warning">
     <div class="container-fluid">
@@ -34,8 +34,8 @@
     </nav>
   </div>
 <main class="container backgroundMain">
-  <h1>Ce que nous proposons d'enseigner</h1>
-  <h2> les instruments</h2>
+  <h1 class="font-weight-bold">Ce que nous proposons d'enseigner</h1>
+  <h2 class="font-weight-bolder"><u>les instruments</u></h2>
   <section class="row row-cols-12 row-cols-md-4">
     <article class="p-2">
       <div class="card">
@@ -50,7 +50,7 @@
     </article>
     <article class="p-2">
       <div class="card">
-        <img src="piano.jpg" class="card-img-top img-fluid" alt="guitariste">
+        <img src="piano.jpg" class="card-img-top img-fluid" alt="piano">
         <div class="card-body">
           <h4 class="card-tittle">Piano</h4>
             <p class="card-text">
@@ -61,7 +61,7 @@
     </article>
     <article class="p-2">
       <div class="card">
-        <img src="saxophone.jpg" class="card-img-top img-fluid" alt="guitariste">
+        <img src="saxophone.jpg" class="card-img-top img-fluid" alt="saxophone">
         <div class="card-body">
           <h4 class="card-tittle">Saxophone</h4>
             <p class="card-text">
@@ -72,21 +72,38 @@
     </article>
     <article class="p-2">
       <div class="card">
-        <img src="batterie.jpg" class="card-img-top img-fluid" alt="guitariste">
+        <img src="batterie.jpg" class="card-img-top img-fluid" alt="batterie">
         <div class="card-body">
           <h4 class="card-tittle">Batterie</h4>
             <p class="card-text">
               Nous vous proposons des cours de batterie.
-              avec la connaissance des différents élément de votre instrument, la rythmique, des exercices d'indépendance. Grâce a ce cours vous serez le maitre des percussions.
+              avec la connaissance des différents élément de votre instrument, la rythmique, des exercices d'indépendance. Grâce a ce cours vous serez le maitre des percussions. nos centres ont tout trois 4 salles d'apprentissage 
             </p>
         </div>
       </div>
     </article>
   </section>
-  <h2>Comment se déroule nos cours</h2>
-  <!--es ce que je dois mettre un texte avec deux ou trois image ou bien faire deux liste avec des points successifs sur comment ce passe les cours ?-->
-  <h2>Ou nous trouver ?</h2>
+  <h2 class="font-weight-bolder"><u>Comment se déroule nos cours ?</u></h2>
+  <!--création de deux paragraphe avec une image de nos salle de cours individuel et une image de nos studio de musique-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h3>Les cours individuels</h3>
+            <p>
+              Pour les débutants nous proposons des cours individuels avec des professeurs de musique agréés pour que vous appreniez les bases de votre instrument. Nous y aborderons tout l'essentiel de l'apprentissage de la musique. Avec des cours comme le solfège, le positionnement des doigts, les bonnes pratiques avec chacun des instruments proposer au sein de notre association.
+              Voici l'une de nos salles de cours individuels : <img src="salleDeCours.jpg" class="img-fluid m-3">
+            </p>
+        </div>
+        <div class="col-12 col-md-6">
+          <h3>Les studios de répétitions</h3>    
+            <p>
+              Dès Lors que vous vous sentirez à l'aise avec votre instrument il sera temps pour vous de trouver un groupe pour pouvoir essayer de jouer ensemble. Car nous pensons que pour apprendre le meilleur moyen est de jouer avec d'autre personnes. C'est pour cela que nous avons créer une section dans chacun de nos centre pour que les apprenants puissent trouver des personnes pour jouer avec eux dans de bonne condition. dès que vous avez trouvé une personnes ou un groupe nous vous proposons des studios de répétitions de qualité professionnels avec une batterie des amplis et des micros déjà en place. Voici une photo d'un de nos studio: <img src="studioMusical.jpg" class="img-fluid m-3">
+            </p>     
+      </div>
+    </div>
+  <h2 class="font-weight-bolder"><u>Ou nous trouver ?</u></h2>
     <!-- mise en place de trois cartes pour situer nos centre de formation-->
+    <p>Voici les adresses de  nos trois sites pour nous rencontrer en personnes si vous voulez apprendre l'un des instruments présent sur notre site.</p>
     <section class="container">
       <div class="row">
         <!--carte pour le site de Morlaix-->
@@ -104,8 +121,12 @@
     </div>
   </section>  
 </main>
-<footer>
-  
+<footer class=" container overflow-hidden bg-dark">
+  <div class="row gx-4">
+    <a class="col-12 col-md-4 p-3" href="#">devellopeur du site web : Aurelien LE GALL</a>
+    <a class="col-12 col-md-4 p-3" href="mailto : assoMusical@finistere.bzh">notre Mail : assoMusical@finistere.bzh</a>
+    <a class="col-12 col-md-4 p-3" href="tel : 0200000000"> notre numéro : 0200000000</a>
+  </div>
 </footer>
 </body>
 </html>
